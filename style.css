@@ -36,4 +36,38 @@ body {
   grid-template-rows: repeat(3, 1fr);
 }
 
+/* All Faces Styling  */
 
+.face div {
+  border: 1px solid #000;
+}
+
+.front {
+  background-color: #fbf0b2;
+  transform: rotateY(0deg) translateZ(100px);
+}
+
+.back {
+  background-color: #ffc7ea;
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.right {
+  background-color: #d8b4f8;
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.left {
+  background-color: #caedff;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+  background-color: #a8d5e2;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+  background-color: #fcd0a1;
+  transform: rotateX(-90deg) translateZ(100px);
+}
